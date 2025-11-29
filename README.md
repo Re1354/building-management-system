@@ -187,23 +187,34 @@ building-management/
 
 ## Screenshots
 
+###Login
+<img width="1600" height="722" alt="image" src="https://github.com/user-attachments/assets/dfde1d66-e857-4951-9eb6-6ff2f7ce506f" />
+
 ### Dashboard
 
 - Overview cards showing total collections
 - Monthly collection chart
 - Quick action buttons
+<img width="1600" height="762" alt="image" src="https://github.com/user-attachments/assets/186aee87-afb7-4d9a-8437-e06efa0b70e9" />
+
 
 ### Tenants Management
 
 - Table view of all tenants
 - Add/Edit/Delete functionality
 - Search and filter options
+<img width="1600" height="733" alt="image" src="https://github.com/user-attachments/assets/ccf5d394-abd4-45b3-9e31-2b19af6b7c4e" />
+<img width="1600" height="729" alt="image" src="https://github.com/user-attachments/assets/9cd98891-3797-4008-b081-928053fed24c" />
+
 
 ### Collections
 
 - Complete payment history
 - Detailed transaction information
 - Add new collection form
+<img width="1600" height="726" alt="image" src="https://github.com/user-attachments/assets/8a3a9bb9-12e5-4399-a332-0962d858c62f" />
+<img width="1600" height="724" alt="image" src="https://github.com/user-attachments/assets/da55cff4-ebff-469f-adcb-5f6d22756f57" />
+
 
 ## Security
 
