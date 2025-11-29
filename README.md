@@ -38,6 +38,7 @@ A full-stack web application for managing building tenants and rent collections.
 - **React Router DOM** - Routing
 - **Axios** - HTTP client
 - **Recharts** - Data visualization
+- **daisyUI** - Tailwind CSS Components.
 - **Tailwind CSS** - Styling
 
 ### Backend
