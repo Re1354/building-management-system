@@ -77,6 +77,17 @@ const Login = () => {
             {loading ? 'Signing in...' : 'Sign In With Email And Password'}
           </button>
 
+          {/* <div className="mt-6 text-center">
+            <p className="text-gray-600 text-sm">
+              Don't have an account?{' '}
+              <Link
+                to="/register"
+                className="text-blue-600 hover:text-blue-700 font-medium"
+              >
+                Register here
+              </Link>
+            </p>
+          </div>
           <div className="mt-6 text-center">
             <p className="text-gray-600 text-sm">
               Don't have an account?{' '}
@@ -86,6 +97,21 @@ const Login = () => {
               >
                 Register here
               </Link>
+            </p>
+          </div> */}
+
+          <div className="mt-6 text-center">
+            <p className="text-gray-600 text-xl font-semibold">
+              Use the following credentials to log in:
+            </p>
+            <p className="mt-2 text-gray-700 text-xl">
+              <span className="font-medium text-blue-400">Email:</span>
+              {''}
+              redwan123@gmail.com
+              <br />
+              <span className="font-medium text-blue-400">Password:</span>
+              {''}
+              redwan1234
             </p>
           </div>
         </form>
