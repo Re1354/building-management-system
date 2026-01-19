@@ -27,27 +27,29 @@ const Login = () => {
   return (
     <div className="min-h-screen bg-gray-50 flex items-center justify-center p-4">
       <div className="bg-white rounded-2xl shadow-lg border border-gray-200 w-full max-w-md p-8">
+        {/* Header */}
         <div className="text-center mb-6">
           <h2 className="text-2xl font-bold text-gray-900">Sign in</h2>
-          <p className="text-gray-600 text-sm mt-2 font-medium">
-            Welcome user, please sign in to continue
+          <p className="text-gray-600 text-sm mt-2">
+            Welcome back, please sign in to continue
           </p>
         </div>
 
         <form onSubmit={handleSubmit}>
+          {/* Error */}
           {error && (
             <div className="bg-red-50 border border-red-200 text-red-700 px-4 py-3 rounded-lg mb-4 text-sm">
               {error}
             </div>
           )}
 
+          {/* Email */}
           <div className="mb-4">
-            <label className="block text-sm font-medium text-blue-700 mb-1.5">
+            <label className="block text-sm font-medium text-blue-700 mb-1">
               Email <span className="text-red-500">*</span>
             </label>
             <input
               type="email"
-              placeholder=""
               value={email}
               onChange={e => setEmail(e.target.value)}
               required
@@ -55,13 +57,13 @@ const Login = () => {
             />
           </div>
 
+          {/* Password */}
           <div className="mb-6">
-            <label className="block text-sm font-medium text-blue-700 mb-1.5">
+            <label className="block text-sm font-medium text-blue-700 mb-1">
               Password <span className="text-red-500">*</span>
             </label>
             <input
               type="password"
-              placeholder=""
               value={password}
               onChange={e => setPassword(e.target.value)}
               required
@@ -69,32 +71,33 @@ const Login = () => {
             />
           </div>
 
+          {/* Button */}
           <button
             type="submit"
             disabled={loading}
             className="w-full py-3 bg-gray-900 text-white rounded-lg font-medium hover:bg-gray-800 transition-colors disabled:bg-gray-400 disabled:cursor-not-allowed"
           >
-            {loading ? 'Signing in...' : 'Sign In With Email And Password'}
+            {loading ? 'Signing in...' : 'Sign In'}
           </button>
 
+          {/* Demo Credentials */}
           <div className="mt-6 text-center">
-            <p className="text-gray-600 text-lg font-semibold">
-              Use the following credentials to log in:
+            <p className="text-gray-600 text-sm font-medium">
+              Demo login credentials
             </p>
-            <p className="mt-2 text-gray-700 text-lg">
-              <span className="font-medium text-blue-400">Email:</span>
-              {''}
+            <p className="mt-2 text-gray-700 text-sm leading-relaxed">
+              <span className="font-medium text-blue-500">Email:</span>{' '}
               redwan123@gmail.com
               <br />
-              <span className="font-medium text-blue-400">Password:</span>
-              {''}
+              <span className="font-medium text-blue-500">Password:</span>{' '}
               redwan1234
             </p>
           </div>
 
+          {/* Register */}
           <div className="mt-6 text-center">
             <p className="text-gray-600 text-sm">
-              Don't have an account?{' '}
+              Don&apos;t have an account?{' '}
               <Link
                 to="/register"
                 className="text-blue-600 hover:text-blue-700 font-medium"
