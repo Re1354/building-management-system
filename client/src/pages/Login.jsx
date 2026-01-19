@@ -86,10 +86,10 @@ const Login = () => {
               Demo login credentials
             </p>
             <p className="mt-2 text-gray-700 text-sm leading-relaxed">
-              <span className="font-medium text-blue-500">Email:</span>{' '}
+              <span className="font-medium text-blue-500">Email:</span>
               redwan123@gmail.com
               <br />
-              <span className="font-medium text-blue-500">Password:</span>{' '}
+              <span className="font-medium text-blue-500">Password:</span>
               redwan1234
             </p>
           </div>
